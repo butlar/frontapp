@@ -42,3 +42,6 @@ dist
 **/public/sw.js.map
 **/public/fallback-*.js
 **/public/fallback-*.js.map
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
