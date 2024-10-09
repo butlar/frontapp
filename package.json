@@ -7,7 +7,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
+    "build": "node api.js && turbo run build",
     "build:platform": "turbo run build --filter=!auto",
     "build:auto": "turbo run build --filter=!demo-platform",
     "platform": "turbo run dev --parallel --filter=demo-platform",
